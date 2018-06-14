@@ -1,0 +1,100 @@
+/*********BASE STYLES********/
+
+body {
+   font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.third-width{
+    float: left;
+    margin: 0px 0px 0px 125px auto;
+    padding: 0px, 25px, 0px, 25px;
+    width: 350px;
+}
+
+/*******BODY********/
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+header h1 span {
+	color: #77a466;
+}
+
+nav ul li{
+   float: left;
+   list-style-type: none;
+   padding: 7px;
+   text-transform: uppercase;
+   }
+
+nav ul li a{
+   color: #77a466;
+   font-weight: 900;
+   text-decoration: none;
+}
+
+.main-image{
+    border-top: 3px solid #77a466;
+    float: left;
+}
+
+h2 {
+  clear: both;
+}
+
+.third-width{
+    border-top: 3px solid #77a466;
+}
+
+#specials #reviews #contact h3{
+  float: left;
+}
+
+#specials{
+  padding: 0px 0px 10px 0px;
+}
+
+#specials ul{
+  color: #77a466;
+}
+
+#reviews{
+  padding: 0px 75px 10px 75px;
+}
+
+#contact {
+  padding: 0px 0px 10px 0px;
+}
+
+footer {
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0px 0px 0px -40px;
+	clear: both;
+	text-align: center;
+}
+
+footer span {
+    color: #77a466;
+    font-family: 'Yellowtail', cursive;
+    font-size: 16px;
+    text-transform: lowercase;
+}
